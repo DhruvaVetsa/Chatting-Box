@@ -1,0 +1,22 @@
+<%- include('includes/header.ejs') %>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/stylesheets/style.css">
+    </head>
+
+    <body>
+        <div id="back">
+            <div id="card">
+                <h2 style="text-align: center;">Chatter Box</h2>
+                <form action="/post-chat" method="post">
+                    <input type="text" placeholder="Enter Your Name" name="name_entered">
+                    <button type="submit">Join the global village!</button>
+                </form>
+                <p>You need to register to the app before watching the content read, <a href="/">terms & conditions</a>
+                    applied.</p>
+            </div>
+        </div>
+    </body>
+
+    </html>
